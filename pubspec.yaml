@@ -1,0 +1,47 @@
+name: clothing_store
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/plainblack.png
+    - assets/images/plainyellow.png
+    - assets/images/plainblue.png
+    - assets/images/Life.png
+    - assets/images/plainwhite.png 
+    - assets/images/whitepolo.png
+  
+  fonts:
+    - family: Machinery Script
+      fonts:
+        - asset: assets/fonts/MachineryScript.otf
+    
+    - family: Fendesert Sans Stamp
+      fonts:
+        - asset: assets/fonts/Fendesert Sans Stamp.ttf
+    
+    - family: October Wish 
+      fonts:
+        - asset: assets/fonts/October Wish .otf
+
+    - family: Wild Love
+      fonts:
+        - asset: assets/fonts/Wild Love.otf
+
